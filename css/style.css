@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+}
+
+.navlateral {
+    background: #ce6396;
+}
+
+footer {
+    background-color: #ecd7e0;
+    color: rgba(0,0,0,.5);
+    padding: 15px;
+}
+
+#divPistas {
+    display: none;
+}
+
+.bg-light {
+    background-color: #ecd7e0 !important;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.titol {
+    color: #ce6396;
+}
+
+.anchoForm {
+    width: 160px;
+}
+
+.btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+    background-color: #ce6396 !important;
+    border-color: #ced4da !important;
+    color: white !important;
+}
